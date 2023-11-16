@@ -1,0 +1,124 @@
+baseURL = 'https://tinkerbell.org/'
+languageCode = 'en-us'
+title = 'Tinkerbell - Bare Metal Automation'
+
+[module]
+[[module.imports]]
+    path = 'github.com/McShelby/hugo-theme-relearn'
+
+[outputs]
+home = [ "HTML", "RSS", "SEARCH", "SEARCHPAGE" ]
+
+[params]
+author.name = "Tinkerbell Community"
+description = "Tinkerbell is an open-source bare metal provisioning engine, built for a cloud native world and maintained by the Tinkerbell community."
+github = "https://github.com/tinkerbell"
+email = "cncf-tinkerbell-dev@lists.cncf.io"
+image = "images/social/tinkerbell-social-image.png" # relative to static
+sitename = "Tinkerbell.org"
+twitter = "@tinkerbell_oss"
+ogtitle = "Flexible automation for bare metal"
+ogdescription = "Designed for scalable provisioning of physical hardware, Tinkerbell is both open-source and cloud native. Contributed to the CNCF by Equinix Metal."
+showVisitedLinks = false
+disableBreadcrumb = false
+disableNextPrev = true
+disableShortcutsTitle = true
+themeVariant = ['auto', 'blue', 'mine']
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-fw fa-slack'></i> <em>Community Slack</em>"  
+url = "/community/contact/" 
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/tinkerbell/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-file-contract '></i> License"
+url = "/terms/license"
+weight = 40
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-question-circle'></i> Support"
+url = "/community/support"
+weight = 50
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-twitter'></i> Twitter"
+url = "https://twitter.com/tinkerbell_oss"
+weight = 60
+
+[[menu.homepage]]
+identifier = "docs"
+name = "Docs"
+url = "/docs/"
+weight = 1
+
+[[menu.homepage]]
+identifier = "faq"
+name = "FAQ"
+url = "/faq/"
+weight = 10
+
+[[menu.homepage]]
+identifier = "community"
+name = "Community"
+url = "/community/"
+weight = 20
+
+[[menu.homepage]]
+pre = "<i class='fab fa-fw fa-github'></i>"
+name = "GitHub"
+url = "https://github.com/tinkerbell/"
+weight = 20
+
+[[menu.homepage]] 
+pre = "<i class='fab fa-fw fa-slack'></i>"  
+name = "Slack Channel"  
+url = "/community/contact/" 
+weight = 30
+
+[[menu.homepage]]
+pre = "<i class='fab fa-fw fa-twitter'></i>"
+name = "Twitter"
+url = "https://twitter.com/tinkerbell_oss"
+weight = 40
+
+[[menu.homepage]]
+pre = "<i class='fab fa-fw fa-youtube'></i>"
+name = "Youtube"
+url = "https://www.youtube.com/channel/UCTzWInTQPvzH21KHS8jrq7A"
+weight = 20
+
+[[menu.tink]]
+name = "Tink"
+url = "https://github.com/tinkerbell/tink"
+title = "Provisioning & Workflow Engine"
+weight = 10
+
+[[menu.tink]]
+name = "Boots"
+url = "https://github.com/tinkerbell/boots"
+title = "DHCP & iPXE Server"
+weight = 20
+
+[[menu.tink]]
+name = "Hegel"
+url = "https://github.com/tinkerbell/hegel"
+title = "Metadata Service"
+weight = 30
+
+[[menu.tink]]
+name = "Hook"
+url = "https://github.com/tinkerbell/hook"
+title = "Tinkerbell Install Environment"
+weight = 40
+
+[[menu.tink]]
+name = "PBnJ"
+url = "https://github.com/tinkerbell/pbnj"
+title = "Power & Boot Control Service"
+weight = 50
