@@ -1,7 +1,7 @@
 +++
 title = "Provision and manage bare metal, anywhere"
 type = "hero"
-image = "/images/hero-art.png"
+image = "images/hero-art.png"
 hidden = true
 +++
 

@@ -1,7 +1,7 @@
 +++
 type = "section-2"
 title = "How Does it Work?"
-image = "/images/table-art.png"
+image = "images/table-art.png"
 hidden = true
 +++
 

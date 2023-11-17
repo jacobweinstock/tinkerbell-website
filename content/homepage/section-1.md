@@ -1,7 +1,7 @@
 +++
 type = "section-1"
 title = "What is Tinkerbell?"
-image = "../../images/datacenter-art.png"
+image = "images/datacenter-art.png"
 hidden = true
 +++
 
