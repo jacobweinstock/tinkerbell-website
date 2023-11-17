@@ -17,7 +17,7 @@ weight = 5
 : Tinkerbell currently works on many different vendors. Dell, HP, Supermicro, Lenovo, and many more. If you find a vendor that is not supported or want us to add additional vendors to our list, let us know!
 
 **Is Tinkerbell able to operate remote server power settings (power on; power off)? How about resetting?**
-: Yes, via the [PBnJ](/services/pbnj) or [Rufio](/services/rufio).
+: Yes, via the [PBnJ](/docs/services/Pbnj) or [Rufio](/docs/services/Rufio).
 
 **Does Tinkerbell use each operating system's native network installer program, or does it install using a different method?**
 : It depends on the operating system, the installation environment supports non-NM and NM for rpm-based systems, and the standard deb-based network interfaces.

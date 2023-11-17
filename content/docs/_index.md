@@ -50,16 +50,15 @@ Need a little help getting started? We're here!
   Look for the [#tinkerbell] channel.
 - Submit an issue on [Github].
 
-[Smee]: /services/smee
-[pbnj]: /services/pbnj
-[hook]: /services/hook
-[hegel]: /services/hegel
-[rufio]: /services/rufio
-[tink server]: /services/tink-server
-[tink worker]: /services/tink-worker
-[tink controller]: /services/tink-controller
+[Smee]: /docs/services/Smee
+[pbnj]: /docs/services/Pbnj
+[hook]: /docs/services/HookOS
+[hegel]: /docs/services/Hegel
+[rufio]: /docs/services/Rufio
+[tink server]: /docs/services/tink-server
+[tink worker]: /docs/services/tink-worker
+[tink controller]: /docs/services/tink-controller
 [cncf community slack]: https://slack.cncf.io/
-[contributors' page]: /community/contributors/
 [faqs]: /faq/
 [github]: https://github.com/tinkerbell
 [ipxe]: https://ipxe.org/
