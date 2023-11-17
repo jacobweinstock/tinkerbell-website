@@ -4,4 +4,4 @@ title = "Get Started"
 hidden = true
 +++
 
-[Get Started](/setup/).
+[Get Started](/community).

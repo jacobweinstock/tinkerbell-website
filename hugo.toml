@@ -23,6 +23,7 @@ showVisitedLinks = false
 disableBreadcrumb = false
 disableNextPrev = true
 disableShortcutsTitle = true
+disableLandingPageButton = true
 themeVariant = ['auto', 'blue', 'mine']
 
 [[menu.shortcuts]] 
@@ -96,12 +97,12 @@ weight = 20
 [[menu.tink]]
 name = "Tink"
 url = "https://github.com/tinkerbell/tink"
-title = "Provisioning & Workflow Engine"
+title = "Workflow Server, Worker, and Controller"
 weight = 10
 
 [[menu.tink]]
-name = "Boots"
-url = "https://github.com/tinkerbell/boots"
+name = "Smee"
+url = "https://github.com/tinkerbell/smee"
 title = "DHCP & iPXE Server"
 weight = 20
 
@@ -114,11 +115,5 @@ weight = 30
 [[menu.tink]]
 name = "Hook"
 url = "https://github.com/tinkerbell/hook"
-title = "Tinkerbell Install Environment"
+title = "Operating System Installation Environment (OSIE)"
 weight = 40
-
-[[menu.tink]]
-name = "PBnJ"
-url = "https://github.com/tinkerbell/pbnj"
-title = "Power & Boot Control Service"
-weight = 50

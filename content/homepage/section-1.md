@@ -5,5 +5,5 @@ image = "../../images/datacenter-art.png"
 hidden = true
 +++
 
-Tinkerbell is a bare metal provisioning engine, built and maintained by the team by the [Tinkerbell Community](/community/).
-Tinkerbell consists of five microservices: Boots, Hegel, Hook, PBnJ, and Tink.
+Tinkerbell is a bare metal provisioning engine, built and maintained by the [Tinkerbell Community](/community/).
+The core Tinkerbell stack is comprised of the following services: Smee, Hegel, Hook, and Tink.

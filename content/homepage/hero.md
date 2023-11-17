@@ -5,6 +5,6 @@ image = "/images/hero-art.png"
 hidden = true
 +++
 
-Standardize infrastructure and application management using the same API-centric, declarative configuration and automation approach pioneered by the Kubernetes community.
+Standardize infrastructure management using the same API-centric, declarative configuration and automation approach pioneered by the Kubernetes community.
 
-[Get Started](docs/setup/)
+[Get Started](/community)

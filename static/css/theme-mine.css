@@ -2,26 +2,26 @@
     
     --MAIN-TEXT-color:#323232; /* Color of text by default */
     --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
-    --MAIN-LINK-color:rgb(53, 75, 95); /* Color of links */
-    --MAIN-LINK-HOVER-color:#273949; /* Color of hovered links */
+    --MAIN-LINK-color: rgba( 28, 144, 243, 1 ); /* Color of links */
+    --MAIN-LINK-HOVER-color: rgba( 22, 122, 208, 1 ); /* Color of hovered links */
     --MAIN-ANCHOR-color: rgb(31, 54, 75); /* color of anchors on titles */
 
     --MENU-HEADER-BG-color: transparent url(/images/dots.png) repeat; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color:#33a1ff; /*Color of menu header border */ 
+    --MENU-HEADER-BORDER-color:#05254c; /*Color of menu header border */ 
 
     --MENU-SEARCH-BG-color: #ffffff; /* Search field background color (by default borders + icons) */
-    --MENU-SEARCH-BOX-color: #252c31; /* Override search field border color */
+    --MENU-SEARCH-BOX-color: #05254c; /* Override search field border color */
     --MENU-SEARCH-BOX-ICONS-color: #323232; /* Override search field icons color */
 
-    --MENU-SECTIONS-ACTIVE-BG-color:#20272b; /* Background color of the active section and its childs */
-    --MENU-SECTIONS-BG-color:#252c31; /* Background color of other sections */
+    --MENU-SECTIONS-ACTIVE-BG-color:#05254c; /* Background color of the active section and its childs */
+    --MENU-SECTIONS-BG-color:#05254c; /* Background color of other sections */
     --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
     --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
     --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
-    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #ffffff; /* Color of background for the active category (only) */
 
     --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
-    --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */
+    --MENU-SECTION-HR-color: #05254c; /* Color of <hr> separator in menu */
     
 }
 
@@ -48,6 +48,9 @@ a {
 
 a:hover {
     color: var(--MAIN-LINK-HOVER-color);
+
+    text-decoration: none;
+    border-bottom: #526cfe 0.125em solid;
 }
 
 #sidebar ul li.visited > a .read-icon {
@@ -100,3 +103,4 @@ a:hover {
 #sidebar hr {
     border-color: var(--MENU-SECTION-HR-color);
 }
+
