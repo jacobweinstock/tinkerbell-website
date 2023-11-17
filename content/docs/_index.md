@@ -11,7 +11,7 @@ Everything you need to know about Tinkerbell and its major components.
 
 ## What is Tinkerbell?
 
-Tinkerbell is an open-source, bare metal provisioning engine, built by the team at Equinix Metal.
+Tinkerbell is an open-source, bare metal provisioning engine. Originally open source by the team at Equinix Metal, it is now a [Cloud Native Computing Foundation (CNCF) Sandbox Project](https://www.cncf.io/projects/tinkerbell/) maintained by the [Tinkerbell Community](/community/).
 
 Interested in contributing? Check out our [Contributors' Page].
 
