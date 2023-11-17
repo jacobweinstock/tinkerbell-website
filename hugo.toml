@@ -24,7 +24,7 @@ disableBreadcrumb = false
 disableNextPrev = true
 disableShortcutsTitle = true
 disableLandingPageButton = true
-relativeURLs = true
+disableExplicitIndexURLs = true
 themeVariant = ['auto', 'blue', 'mine']
 
 [[menu.shortcuts]] 
