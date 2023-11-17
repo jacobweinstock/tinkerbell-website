@@ -200,7 +200,7 @@ The following section explains each property in the above example:
 
 While the hardware data is essential, not all the properties are required for every workflow.
 
-```json
+```yaml
 apiVersion: "tinkerbell.org/v1alpha1"
 kind: Hardware
 metadata:
